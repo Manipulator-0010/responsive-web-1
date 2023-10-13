@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project-1</title>
+    <link rel="stylesheet" href="style.css">
+    <!--CSS bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--JAVASCRIPT bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid" id="navigation">
+      <nav>
+        <ul>
+            <li><a href="#" class="active">Home</a>
+            <ul>
+              <li id="li-2"><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+            </li>
+            <li><a href="#">About</a>
+              <ul id="ul-2">
+                <li id="li-2"><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Service</a>
+              <ul>
+                <li id="li-2"><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Anime</a>
+              <ul>
+                <li id="li-2"><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Movies</a>
+              <ul>
+                <li id="li-2"><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+              </ul>
+            </li>
+        </ul>
+        </nav>
+    </div>
+
+    <div class="conrainerfluid">
+      <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="images/wall-0.jpeg">
+            </div>
+            <div class="slide">
+                <img src="images/wall-1.jpg">
+            </div>
+            <div class="slide">
+                <img src="images/wall-2.jpeg">
+            </div>
+            <div class="slide">
+                <img src="images/wall-3.jpeg">
+            </div>
+            <div class="auto-navigation">
+                <div class="auto-btn-1"></div>
+                <div class="auto-btn-2"></div>
+                <div class="auto-btn-3"></div>
+                <div class="auto-btn-4"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    </div>
+
+    <!--FIRST TITLE-->
+    <div class="container text-center" id="header">
+      <h2>Anime Series</h2>
+    </div>
+
+    <!--CLICK IMAGES-->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="column">
+        <div class="col-sm-12">
+          <img src="images/wall-0.jpeg" alt="#" id="img-main">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-5">
+      <div class="column">
+        <div class="col-sm-12" id="img-li">
+          <li onclick="Images('images/wall-1.jpg')"><img  src="images/wall-1.jpg" alt="#" id="img-1"></li>
+        </div>
+        <div class="col-sm-12" id="img-li">
+          <li onclick="Images('images/wall-2.jpeg')"><img src="images/wall-2.jpeg" alt="#" id="img-1" class="img-2"></li>
+        </div>
+        <div class="col-sm-12" id="img-li">
+          <li onclick="Images('images/wall-3.jpeg')"><img src="images/wall-3.jpeg" alt="#" id="img-1" class="img-2"></li>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!--SECOND TITLE-->
+ <div class="container text-center" id="header">
+  <h2>Triller Anime Opening</h2>
+</div>
+
+<!--VIDEO WITH GRAPH-->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5">
+      <video controls class="video-1">
+        <source src="video/live.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="col-sm-7" id="graph-1">
+      <p>Japanese manga series written and illustrated by Gege Akutami. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since March 2018, with its chapters collected and published in 22 tankōbon volumes as of March 2023.
+      <br><br>
+      The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers to eliminate a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host. Jujutsu Kaisen is a sequel to Akutami's Tokyo Metropolitan Curse Technical School, serialized in Shueisha's Jump GIGA from April to July 2017, later collected in a tankōbon volume, retroactively titled as Jujutsu Kaisen 0, in December 2018.
+      <br><br>Jujutsu Kaisen is licensed for English-language release in North America by Viz Media, which has published the manga in print since December 2019.</p>
+    </div>
+  </div>
+</div>
+
+ <!--THIRD TITLE-->
+ <div class="container text-center" id="header">
+  <h2>Login Now!</h2>
+</div>
+
+<!--LOGIN FORM-->
+<div class="container-fluid">
+  <div class="box">
+    <input type="name" class="user" placeholder="username">
+    <br>
+    <br>
+    <input type="password" placeholder="password">
+    <br>
+    <br>
+    <br>
+    <button class="box-1">Login</button>
+    <button class="box-2">Register</button>
+    <div class="row" id="row-1">
+      <div class="col-sm-5" id="text-1">
+        <h2>New Anime</h2>
+        <p>- 2023 in anime Events in 2023 in anime. A list of anime films that will be released in theaters between January 1 and December 31, 2023. A list of anime television series.
+          <br>
+          <br>
+          - The Island of Giant Insects (Japanese: 巨蟲列島, Hepburn: Kyochū Rettō) is a Japanese manga series written by Yasutaka Fujimi and illustrated by REDICE and later by Shu Hirose.
+        </p>
+      </div>
+      <div class="col-sm-5" id="text-2">
+        <h2>Triller Seasons</h2>
+        <p>- List of Doraemon episodes (2005 anime) (seasons 7 - 9)) The following is a list of episodes of the anime television series Doraemon (2005 anime).
+          <br>
+          <br>
+          - All the main chapters of the manga between 2004 and 2008, while the anime would only have its first season and Axess aired on Kids' WB! from 2003 to 2005.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!--FOURTH TITLE-->
+ <div class="container text-center" id="header">
+  <h2>New Season Anime 2023</h2>
+</div>
+
+<!--WALL VIDEO-->
+<div class="container-fluid">
+  <video autoplay loop class="video-2" muted plays-inline>
+    <source src="video/live.mp4" type="video/mp4">
+  </video>
+</div>
+
+ <!--FIFTH TITLE-->
+ <div class="container text-center" id="header">
+  <h2>Short Anime Clip</h2>
+</div>
+
+<!--YOUTUBE VIDEO-->
+<div class="container-fluid">
+  <div class="box-3">
+      <iframe src="https://www.youtube.com/embed/V8eWxOLXLK8" class="tube-1"></iframe>
+      <iframe src="https://www.youtube.com/embed/Bl1FOKpFY2Q" class="tube-2"></iframe>
+      <iframe src="https://www.youtube.com/embed/38y_1EWIE9I" class="tube-3"></iframe>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="box-3" id="box-4">
+    <iframe src="https://www.youtube.com/embed/5L4DQfVIcdg" class="tube-4"></iframe>
+    <iframe src="https://www.youtube.com/embed/Maz85q8iDdc" class="tube-5"></iframe>
+    <iframe src="https://www.youtube.com/embed/qqEwt0p2ZvY" class="tube-6"></iframe>
+  </div>
+</div>
+
+ <!--SIXTH TITLE-->
+ <div class="container text-center" id="header">
+  <h2>Watch the Best Anime Online</h2>
+</div>
+
+<!--FLEXING GRAPH-->
+<div class="container">
+  <div class="row" id="row-2">
+    <div class="col-sm-4" id="text-3">
+      <p>Anime is one of the most popular genres of entertainment today, and for a good reason. It’s full of action, adventure, and suspense and always entertaining. Many such sites enable you to filter anime by season, year, quality, and language.</p>
+    </div>
+    <div class="col-sm-4" id="text-3">
+      <p>You can browse the site to enjoy the drama or animation for free. This anime site is a joint venture between Japan’s Aniplex and Sony Pictures Entertainment. It also provides fans with a store that offers exciting anime merchandise.</p>
+    </div>
+    <div class="col-sm-4" id="text-3">
+      <p>Anime is fun to watch but could also get you into legal trouble if you’re caught torrenting. Anime users are strongly advised to always connect to a VPN while streaming online. Free anime website to watch your favorite anime movies, cartoons, and TV shows online for free.</p>
+    </div>
+  </div>
+</div>
+<!--FOOTER-->
+<footer>
+  <div class="container">
+  <div class="row" id="row-3">
+    <div class="col-sm-3" id="logo-1">
+      <img src="logo/icn-0.png" alt="#">
+      <p id="text-4">FunAnime109@yahoo.com</p>
+      <p>AnimeMemes70@yahoo.com</p>
+      <p>updateAnime30@yahoo.com</p>
+    </div>
+    <div class="col-sm-3" id="logo-1">
+      <img src="logo/icn-1.jpeg" alt="#">
+      <p id="text-4">AnimeInstag_109.com</p>
+      <p>AnimeMemes_341.com</p>
+      <p>updateSeasons_23.com</p>
+    </div>
+    <div class="col-sm-3" id="logo-1">
+      <img src="logo/icn-2.png" alt="#">
+      <p id="text-4">Tube_@nimefun-145k</p>
+      <p>Tube_@nimememes-09</p>
+      <p>Tube_@nimeUpdate-07</p>
+    </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
